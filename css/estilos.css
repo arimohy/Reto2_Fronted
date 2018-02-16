@@ -1,0 +1,102 @@
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    float:right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  color: #A6ACAF;
+  text-decoration:underline;
+    
+}
+
+#imagen
+{
+  display:block;
+  text-align:center;
+  margin: 10px;
+  padding: 150px;
+}
+
+input[type=text], select {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;  
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 25%;
+    color: #626567;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4444;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px;
+}
+footer {
+  border: 1px solid #ccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2F2F2;
+    color: #464646;
+
+ 
+}
+footer ul {
+  border: 1px solid #ccc;
+  width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    float:left;
+
+}
+#izquierda
+{
+    padding: 0;
+    float:right;
+
+}
+
+#derecha
+{
+    padding: 0;
+    float:left;
+}
+
